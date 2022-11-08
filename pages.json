@@ -1,0 +1,143 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "JS商城",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false
+			}
+		},
+        {
+            "path" : "pages/member/member",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/category/category",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "商品分类",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+        {
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": true
+            }
+            
+        },
+        {
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品支付",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单查询",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/auth/auth",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户授权",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "JS商城",
+		"navigationBarBackgroundColor": "#d43c33",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true
+	},
+	"tabBar": {
+		"selectedColor": "#d43c33",
+		"list": [
+			{
+				"text": "Home",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png"
+			},
+			{
+				"text": "Category",
+				"pagePath": "pages/category/category",
+				"iconPath": "static/icon/news.png",
+				"selectedIconPath": "static/icon/news-active.png"
+			},
+			{
+				"text": "Shopping-Cart",
+				"pagePath": "pages/cart/cart",
+				"iconPath": "static/icon/cart.png",
+				"selectedIconPath": "static/icon/cart-active.png"
+			},
+			{
+				"text": "Member",
+				"pagePath": "pages/member/member",
+				"iconPath": "static/icon/member.png",
+				"selectedIconPath": "static/icon/member-active.png"
+			}
+		]
+	}
+}

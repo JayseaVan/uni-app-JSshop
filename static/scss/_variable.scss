@@ -1,0 +1,52 @@
+/* 3.网站色彩和字体定义 (colors, text) */
+
+// colors 字体颜色、背景颜色
+$colors: (
+	"primary": #d43c33, // #c82519
+	"lightred": #f42e12,
+	"dotred": #fa2c19,
+	"white": #fff,
+	"grey": #f8f8f8,
+	"grey-1": #f6f6f6,
+	"grey-2": #f2f2f2,
+	"border-grey": #e5e5e5,
+	"tx-grey": #ccc,
+	"icon-grey": #8b8b8b,
+	"black": #000
+);
+
+// font-size 字体大小 (安装插件"px to rem")
+$base-font-size: 2rpx; // 根据html根标签设定的12px字体大小确定
+$font-sizes: (
+    xs: 8, // 8px
+    sm: 10, // 10px
+    md: 12, // 12px
+    lg: 13, // 13px
+    xl: 14, // 14px
+	xxl: 18,
+);
+
+// justify-content 主轴
+$flex-jc: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    between: space-between,
+    around: space-around,
+);
+
+
+// align-items 交叉轴
+$flex-ai: (
+    start: flex-start,
+    end: flex-end,
+    center: center,
+    stretch: stretch
+);
+
+/* 5.常用边距定义 (margin, padding) */
+// spacing
+$spacing-types: (m: margin, p: padding);
+$spacing-directions: (t: top, r: right, b: bottom, l: left);
+$spacing-base-size: 24rpx;
+$spacing-sizes: (0: 0, 1: 0.25, 2: 0.5, 3: 1, 4: 1.5, 5: 3);
